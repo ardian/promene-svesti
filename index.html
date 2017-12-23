@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+<style>
+html { 
+  background: no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.flags img {
+
+
+}
+
+</style>
+</head>
+<body>
+    
+<div class="el">
+
+
+</div>
+
+<img src="images/flags/" alt="">
+<img src="images/flags/" alt="">
+<img src="images/flags/" alt="">
+<img src="images/flags/" alt="">
+<img src="images/flags/" alt="">
+<img src="images/flags/" alt="">
+<img src="images/flags/" alt="">
+<img src="images/flags/" alt="">
+
+
+<div class="flags">
+<center>
+<img width=200px src="images/flags/serbia.svg" alt="">
+<img width=200px src="images/flags/kosovo.svg" alt="">
+<img width="200px" src="images/flags/macedonia.svg" alt="">
+<img width="200px" src="images/flags/albania.svg" alt="">
+</center>
+</div>
+</body>
+</html>
+
+
+<script>
+
+
+
+
+var path = 'images/',
+    imgs = ['albania-theth.jpg', 'slovenia-bled.jpg',
+      'bosnia-banjaluka.jpg', 'bosnia-vijecnica.jpg',
+      'croatia-lake.jpg', 'greece-thessaloniki.jpg',
+      'kosovo-mirusha.jpg', 'macedonia-ohrid.jpg', 'slovenia-bled.jpg',
+    'turkey-cappadocia.jpg'],
+    i = Math.floor(Math.random()*imgs.length);
+    //$('.el').append("<img src='"+path+imgs[i]+"'>").hide().fadeIn(2000);
+    //$('body').css('background-image', "<img src='+path+imgs[i]+'>");
+    $('body').css('background-image', 'url(' + path+imgs[i] + ')');
+    
+
+
+
+
+
+</script>
+
+
